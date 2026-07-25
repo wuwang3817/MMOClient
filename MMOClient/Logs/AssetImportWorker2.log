@@ -1,0 +1,695 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.62f1c1 (b0109b07edb8) revision 11538587'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 32560 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\UnityHub\UnityDownLoad\2022.3.62f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/UnityHub/UnityProjectLocation/MMOClient/MMOClient
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+3957
+Successfully changed project path to: D:/UnityHub/UnityProjectLocation/MMOClient/MMOClient
+D:/UnityHub/UnityProjectLocation/MMOClient/MMOClient
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [49172]  Target information:
+
+Player connection [49172]  * "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 872751756 [EditorId] 872751756 [Version] 1048832 [Id] WindowsEditor(7,ÃçÄ¾³Ï) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [49172] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [49172] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+Refreshing native plugins compatible for Editor in 5.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f1c1 (b0109b07edb8)
+[Subsystems] Discovering subsystems at path D:/UnityHub/UnityDownLoad/2022.3.62f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityHub/UnityProjectLocation/MMOClient/MMOClient/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5070 Laptop GPU (ID=0x2d58)
+    Vendor:   NVIDIA
+    VRAM:     7802 MB
+    Driver:   32.0.15.8205
+Initialize mono
+Mono path[0] = 'D:/UnityHub/UnityDownLoad/2022.3.62f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityHub/UnityDownLoad/2022.3.62f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UnityHub/UnityDownLoad/2022.3.62f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityHub/UnityDownLoad/2022.3.62f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003512 seconds.
+- Loaded All Assemblies, in  0.204 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.172 seconds
+Domain Reload Profiling: 376ms
+	BeginReloadAssembly (60ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (80ms)
+		LoadAssemblies (60ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (78ms)
+				TypeCache.ScanAssembly (70ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (172ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (140ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (96ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.365 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.380 seconds
+Domain Reload Profiling: 745ms
+	BeginReloadAssembly (83ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (237ms)
+		LoadAssemblies (171ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (88ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (380ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (301ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (228ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3608 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (56.4 KB). Loaded Objects now: 4073.
+Memory consumption went from 133.5 MB to 133.5 MB.
+Total: 2.836700 ms (FindLiveObjects: 0.294400 ms CreateObjectMapping: 0.178000 ms MarkObjects: 2.285800 ms  DeleteObjects: 0.077600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 676985.077732 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd412216e666a307735637d58a00089e5') in 0.080151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 203.222100 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '982238530d7de0b90de0b8c75a9cc58d') in 0.021844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 17.696275 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '40f48f1ce3dfbeac0893bcc7c62f45cf') in 0.009804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 3.210651 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5e9b3d14a0348be9cedb9ae2528eb0fe') in 0.009171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 11.717373 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3082666d5ab07c9afca499a62ce0696f') in 0.009367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 61.129030 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '60a29adb77bab5fff62d6f309997054c') in 0.009539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 11.124327 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd369b1004842339d1a5c96019a38b8a0') in 0.009430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 6.031426 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '45980098ee681da5485762fbdce6143d') in 0.009280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 11.720854 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4960610be0e5d2263c5ce569cb2d0f0f') in 0.009283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 5.838783 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2c179496408a409313cd8d727bb11e2b') in 0.009241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 15.170604 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd2f882c4fb5f8fc69135a4be93974f82') in 0.009275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 6.176838 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '37a692391fd48fafb8a16696dc06a4da') in 0.005417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 6.185549 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9faab369fffd85d2b21ae2b75844ffd2') in 0.025591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 1.555180 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '74709cef40e028c2db09aac7d793d0d4') in 0.014976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 28.445149 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3c28dd1c19dd2a24b9c4526807558531') in 0.015605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 12.025170 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '20597c9594444366b667360e2c563798') in 0.014510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 3.628312 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b7e00423a6b0004e77995ece8011c15b') in 0.014779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 2170.540091 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e980efac06f6d32e81d66a57febe11bb') in 0.017953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 1.985613 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd619714baae6686a216efe674b6bbbe0') in 0.015727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 2639.628329 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '30e760063eca9cca14329c892f423066') in 0.015983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 5.797872 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '489d308a8660ae1530f63a6b7247891f') in 0.014374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 108.988338 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '379deee1828c86d0ed044b83c90fc6d6') in 0.018691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 2.388488 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e386667fbd8b3784d8d127b96c1725db') in 0.015241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 12.915719 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e22fc14c8cd4521f7bffe828031a0243') in 0.014830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 22.168132 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9b0f8219316cb207228f1ba38689cc6c') in 0.014793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 8.666641 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '13d79855e90be32e079c97876c76711d') in 0.015550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 10.096309 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0d84083097a1f64ad06cd16057d6f3d0') in 0.015258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 71.478651 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ca14f7c2fd8851f6a38f69f1ffe1f99f') in 0.015131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 1.984810 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '87e7631ea00067ed85b975c6aba281a8') in 0.015100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 4.415958 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7d1270afe328755d42a462ede12c3f41') in 0.014824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 4.827386 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '490a431d016f592b87447251c03013bf') in 0.016519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 12.689071 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'cf7c05406cfb24a9db4b1b32e67a0960') in 0.015228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 1.243416 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3302494bfab6ee43c908581eaf0a76be') in 0.015554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 1.994063 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e6744b57f81937680a6330df66c74cbb') in 0.014967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 20.397299 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9d2df750d8bff934b34d795abe35ab91') in 0.015525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 2.212253 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a281a2dce95306f5e00c20cac2f6279b') in 0.015030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 7.323487 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '337169b4f99802605b49624aca9d44ab') in 0.015378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 18.765996 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0f6aded353743435f67997b05e188863') in 0.015806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 4.597245 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c2f56a135c2e2a345a1f6f17798b181b') in 0.020442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 18.551971 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '782fb70feb89cad5f0e10ad16a3805b5') in 0.020828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 18.975071 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a97ea1df341c24054086d69b04eb74b1') in 0.025431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 28.418203 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f53c1e9f3312a64124b2e91a16de92f7') in 0.018909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time since last request: 5.809401 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5adfc3705e97174dfbdca33806fb6af6') in 0.019217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 7.845060 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3facdd16aae1a3a8a8815f7e1c155bd9') in 0.018943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 14.120040 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0b60c83f7b85f19e77d0e5f407530e6e') in 0.020217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 1.395613 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ea9e80f8927a48981937ee6ca165905f') in 0.018815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 16.542455 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4e2148949e83b757337ad959795e5f29') in 0.019568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 10.097456 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '47dc556415a7a4fda929313ad9f18957') in 0.018819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 11.124913 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4e38bae343a4703993527202a6c83611') in 0.019000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 5.694677 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bc744853b2e78a609fb13c8311bd95a1') in 0.018961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Import Request.
+  Time since last request: 31.291730 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '921c45c850a09200539af2b373d49431') in 0.019741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 6.011654 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd6b14db10c0c66964869a51b841ba333') in 0.018935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 4.820468 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3b0194a1013e38e74b167ca38071521d') in 0.019124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 1.184972 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '618e5ed101216f548eff264f736fb9cd') in 0.019946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 41.815181 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'eedd61854a1b0612dc4cb64b4d17ff46') in 0.018757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 2.457639 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6cdfaf921cf8fca7a5b3c5f017d80da4') in 0.021104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 12.092097 seconds.
+  path: Assets/Resources/UIPrefab/LoginWindow.prefab
+  artifactKey: Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefab/LoginWindow.prefab using Guid(4f046b7bcda86ee4da50d2ff43b28a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '867fbd278ed8ea5de8be4a21b2973e64') in 0.018945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
