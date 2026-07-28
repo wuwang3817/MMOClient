@@ -1,18 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class UIService : MonoBehaviour
+//UI管理服务
+public class UIService:ILogic
 {
-    // Start is called before the first frame update
-    void Start()
+    public void Init()
     {
-        
+        this.Log("UI Service initialized");
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Tick()
     {
-        
+        throw new System.NotImplementedException();
+    }
+
+    public void UnInit()
+    {
+        this.Log("UI Service uninitialized");
     }
 }

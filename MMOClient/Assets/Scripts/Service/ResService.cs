@@ -1,18 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class ResService : MonoBehaviour
+//资源加载服务
+public class ResService : ILogic
 {
-    // Start is called before the first frame update
-    void Start()
+    public void Init()
     {
-        
+        this.Log("Resources Service initialized");
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Tick()
     {
-        
+        throw new System.NotImplementedException();
+    }
+
+    public void UnInit()
+    {
+        this.Log("Resources Service uninitialized");
     }
 }

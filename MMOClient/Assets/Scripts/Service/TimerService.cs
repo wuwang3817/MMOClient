@@ -1,22 +1,33 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using System;
 using PETimer;
 public class TimerService : ILogic
 {
     readonly TickTimer timer = new(0, false);
     public void Init()
     {
-        throw new System.NotImplementedException();
+        timer.LogFunc=this.Log;
+        timer.WarnFunc=this.Warn;
+        timer.ErrorFunc=this.Error;
+        this.Log("Timer Service initialized");
     }
 
     public void Tick()
     {
-        throw new System.NotImplementedException();
+        timer.UpdateTask();
     }
 
     public void UnInit()
     {
-        throw new System.NotImplementedException();
+        this.Log("Timer Service uninitialized");
+    }
+
+    public int AddTask(uint delay, Action<int> taskCB, Action<int> cancelCB = null, int count = 1)
+    {
+        return timer.AddTask(delay, taskCB, cancelCB, count);
+    }
+
+    public bool DeleteTask(int taskID)
+    {
+        return timer.DeleteTask(taskID);
     }
 }
