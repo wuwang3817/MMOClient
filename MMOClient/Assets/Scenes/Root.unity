@@ -513,9 +513,9 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 437788923}
+  - {fileID: 1636423290}
   - {fileID: 1058351501}
   - {fileID: 401156905}
-  - {fileID: 1636423290}
   m_Father: {fileID: 1882598955}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -674,6 +674,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5462657610831373436, guid: 4f046b7bcda86ee4da50d2ff43b28a11, type: 3}
+      propertyPath: m_Color.b
+      value: 0.8431373
+      objectReference: {fileID: 0}
+    - target: {fileID: 5462657610831373436, guid: 4f046b7bcda86ee4da50d2ff43b28a11, type: 3}
+      propertyPath: m_Color.g
+      value: 0.8470589
+      objectReference: {fileID: 0}
+    - target: {fileID: 5462657610831373436, guid: 4f046b7bcda86ee4da50d2ff43b28a11, type: 3}
+      propertyPath: m_Color.r
+      value: 0.82745105
+      objectReference: {fileID: 0}
     - target: {fileID: 6631717314969414559, guid: 4f046b7bcda86ee4da50d2ff43b28a11, type: 3}
       propertyPath: m_Name
       value: LoginWindow
@@ -734,6 +746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cadf97712b7ddb4469e04b2e6c2166ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  uiRoot: {fileID: 1581472056}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
