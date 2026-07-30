@@ -8,7 +8,8 @@ public class LoginMode : BaseMode
     public override void Enter()
     {
         base.Enter();
-        //连接login服务器 TODO
+        //连接login服务器
+        root.NetService.ConnectToLogin();
     }
     public override void Update()
     {

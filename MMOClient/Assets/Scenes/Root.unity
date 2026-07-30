@@ -711,7 +711,7 @@ GameObject:
   - component: {fileID: 1882598955}
   - component: {fileID: 1882598956}
   m_Layer: 0
-  m_Name: PERoot
+  m_Name: Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

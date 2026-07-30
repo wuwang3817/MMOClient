@@ -7,10 +7,17 @@ public class Root : Singleton<Root>
 {
     [SerializeField] private Transform uiRoot;
     
+    //Services
     private List<ILogic> Services=new List<ILogic>();
-    private TimerService TimerService;
-    private ResService ResService;
-    private UIService UIService;
+    public TimerService TimerService;
+    public ResService ResService;
+    public UIService UIService;
+    public NetService NetService;
+
+    //Systems
+    readonly List<ILogic> Systems = new List<ILogic>();
+    public AccountSystem AccountSystem;
+    public StageSystem StageSystem;
     void Start()
     {
         LogConfig config = new()
@@ -40,15 +47,28 @@ public class Root : Singleton<Root>
             
         PELog.InitSettings(config);
         this.Log("游戏开始");
+
+
         TimerService = new TimerService();
         Services.Add(TimerService);
         ResService = new ResService();
         Services.Add(ResService);
         UIService = new UIService();
         Services.Add(UIService);
+        NetService = new NetService();
+        Services.Add(NetService);
         for (int i = 0; i < Services.Count; i++)
         {
             Services[i].Init();
+        }
+
+        AccountSystem = new AccountSystem();
+        Systems.Add(AccountSystem);
+        StageSystem = new StageSystem();
+        Systems.Add(StageSystem);
+        for(int i = 0; i < Systems.Count; i++)
+        {
+            Systems[i].Init();
         }
 
         // 初始化状态机
@@ -57,6 +77,10 @@ public class Root : Singleton<Root>
         fsm.Add(PlayMode.Major, new MajorMode());
         fsm.Add(PlayMode.Wild, new WildMode());
 
+        StageSystem.LoadGameStage(1,()=>
+        {
+           EnterGameMode(PlayMode.Login); 
+        });
     }
     // Update is called once per frame
     void Update()
@@ -64,6 +88,14 @@ public class Root : Singleton<Root>
         for (int i = 0; i < Services.Count; i++)
         {
             Services[i].Tick();
+        }
+        for (int i = 0; i < Systems.Count; i++)
+        {
+            Systems[i].Tick();
+        }
+        if(currentMode!=PlayMode.None)
+        {
+            fsm[currentMode].Update();
         }
     }
     private void OnApplicationQuit()
