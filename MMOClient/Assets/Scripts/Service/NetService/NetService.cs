@@ -7,7 +7,6 @@ public class NetService : ILogic
     }
     public void Tick()
     {
-        throw new System.NotImplementedException();
     }
     public void UnInit()
     {

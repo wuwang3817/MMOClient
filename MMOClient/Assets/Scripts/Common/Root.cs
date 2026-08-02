@@ -116,7 +116,10 @@ public class Root : Singleton<Root>
     {
         if(fsm.ContainsKey(targetMode))
         {
-            fsm[targetMode].Exit();
+            if(currentMode != PlayMode.None)
+            {
+                fsm[targetMode].Exit();
+            }
         }
         fsm[targetMode].Enter();
         currentMode = targetMode;

@@ -1,4 +1,4 @@
-//UI管理服务
+﻿//UI管理服务
 public class UIService:ILogic
 {
     public void Init()
@@ -8,11 +8,19 @@ public class UIService:ILogic
 
     public void Tick()
     {
-        throw new System.NotImplementedException();
     }
 
     public void UnInit()
     {
         this.Log("UI Service uninitialized");
+    }
+    /// <summary>
+    /// 设置加载进度窗口
+    /// </summary>
+    /// <param name="pct"></param>
+    /// <param name="state"></param>
+    public void SetLoading(int pct,bool state=true)
+    {
+        
     }
 }
