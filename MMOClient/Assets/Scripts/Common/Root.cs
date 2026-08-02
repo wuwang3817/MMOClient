@@ -9,10 +9,14 @@ public class Root : Singleton<Root>
     
     //Services
     private List<ILogic> Services=new List<ILogic>();
-    public TimerService TimerService;
-    public ResService ResService;
+    
+    
     public UIService UIService;
+    public ResService ResService;
     public NetService NetService;
+    public TimerService TimerService;
+    public AudioService AudioService;
+
 
     //Systems
     readonly List<ILogic> Systems = new List<ILogic>();
@@ -57,6 +61,8 @@ public class Root : Singleton<Root>
         Services.Add(UIService);
         NetService = new NetService();
         Services.Add(NetService);
+        AudioService = new AudioService();
+        Services.Add(AudioService); 
         for (int i = 0; i < Services.Count; i++)
         {
             Services[i].Init();

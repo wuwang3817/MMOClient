@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\Service\NetService\XlsConfigTool\StageConfig.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\Scripts\Service\AudioService.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Scripts\StageMode\LoginMode.cs" />
     <Compile Include="Assets\Scripts\System\StageSystem.cs" />
@@ -104,7 +105,9 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Common\WindowRoot.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\Scripts\Common\Listener.cs" />
     <Compile Include="Assets\Scripts\StageMode\BaseMode.cs" />
     <Compile Include="Assets\Scripts\Common\ILogic.cs" />
     <Compile Include="Assets\Scripts\StageMode\WildMode.cs" />
