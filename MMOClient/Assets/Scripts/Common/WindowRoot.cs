@@ -26,6 +26,21 @@ public class WindowRoot : MonoBehaviour
         netService = null;
         audioService = null;
     }
+    public void SetWindowState(bool isActive=true)
+    {
+        if(gameObject.activeSelf != isActive)
+        {
+            gameObject.SetActive(isActive);
+        }
+        if(isActive)
+        {
+            InitWindow();
+        }
+        else
+        {
+            UnInitWindow();
+        }
+    }
 
     #region UI工具方法
     protected void SetActive(GameObject go, bool state = true)

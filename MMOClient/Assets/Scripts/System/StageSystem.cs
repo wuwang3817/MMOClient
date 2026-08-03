@@ -60,17 +60,15 @@ public class StageSystem : ILogic
     }
     private void UpdateLoadingProgress(float progress)
     {
-        if(progress==1f)
+        this.LogCyan($"load:{progress}");
+        if (loadingStageDone != null && !config.isGhost)
+        {
+            UIService.SetLoading((int)(progress * 100));
+        }
+        if (progress==1f)
         {
             loadingStageDone?.Invoke();
             loadingStageDone=null;
-        }
-        else
-        {
-            if(loadingStageDone!=null&&!config.isGhost)
-            {
-                UIService.SetLoading((int)(progress*100));
-            }
         }
     }
 }
